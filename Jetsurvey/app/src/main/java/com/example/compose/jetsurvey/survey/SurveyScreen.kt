@@ -177,14 +177,6 @@ private fun TopAppBarTitle(
     )
 }
 
-@Preview
-@Composable
-fun TAPPreview() {
-    JetsurveyTheme {
-        SurveyTopAppBar(questionIndex = 3, totalQuestionsCount = 1, onBackPressed = { })
-    }
-}
-
 @Composable
 private fun SurveyTopAppBar(
     questionIndex: Int,
